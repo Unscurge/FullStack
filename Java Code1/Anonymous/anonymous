@@ -1,0 +1,3 @@
+inner classes that are declared without a name are clled anonymous classes.
+facilitates writing of event handlers.
+anonymous inner class have no name and thier type must be either a subclass of the named type or an implementer of the named interface.

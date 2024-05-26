@@ -1,0 +1,8 @@
+lambda exp sometimes just calls an exisiting function.
+a cleaner way to refer to the existing method is by its name
+short hand notation of lambda expression but only for existing methods
+Method Reference can be given to :
+1. static method
+2. instance method 
+3. instance methods of any arbitrary object 
+4. constructor

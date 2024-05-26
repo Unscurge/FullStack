@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>
+                Your Details
+            </legend>
+            <label> Name </label>
+            <input type="text"><br><br>
+            <label> Email </label>
+            <input type="text"><br>
+        </fieldset>
+        <fieldset>
+            <legend>
+                Your Review
+            </legend><br>
+            <label for="s1">How did you hear about us ?</label>
+            <select id="s1">
+                <option value="Google">Google</option>
+                <option value="Friend">Friend</option>
+                <option value="Advertisment">Advertisment</option>
+            </select><br><br>
+            <label >Would you visit again?</label><br>
+            <label for="y1">Yes</label>
+            <input type="Radio" name="yes" id="y1" value="Yes">
+            <label for="y2">No</label>
+            <input type="radio" name="No" id="y2" value="NO">
+            <label for="y3">Maybe</label>
+            <input type="radio" name="May" id="y3" value="Maybe"><br><br>
+
+            <label for="c1">Comments: </label><br>
+            <textarea name="Comments" id="c1" cols="30" rows="10"></textarea><br><br>
+
+            <input type="checkbox" name="check[]" id="cb1" value="sign">
+            <label for="cb1">Sign me up for Email updates.</label><br><br>
+            <button>Submit Review</button>
+
+        </fieldset>
+        
+    </form>
+</body>
+</html>

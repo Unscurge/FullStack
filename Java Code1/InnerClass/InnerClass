@@ -1,0 +1,5 @@
+inner class used to provide security.
+inner class is not directly accessible.
+private field of outer class can be used in inner class.
+mechanism allows grouping of related functonalities together under one roof.
+ 

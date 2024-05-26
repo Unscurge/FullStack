@@ -1,0 +1,14 @@
+* Map associates key with value.
+* Map cannot contain duplicate key.
+* Key and value can be of any java class or interface type.
+* one key can have 
+types of map :
+1. Hashmap class (implements map interface) :-
+* contains key and value pair. Each key and value pair is known as an entery.
+* allows one null key and multiple null values.
+* one key can have at most one value.
+* unsorted and unodered and not synchronised.
+* get(key) method is used to get value from Hashmap.
+* In order to use an iterator, we first need set of keys, which can be retrieved using map.keyset() method.
+2. Hashtable
+3. Treemap

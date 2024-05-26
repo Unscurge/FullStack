@@ -1,0 +1,2 @@
+in method overrriding principle subclass has to follow the same method signature as that of super class.
+java allows you to change return type in

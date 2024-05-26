@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" methods="get" name="data">
+        <label for="UC">select color</label><br>
+        <input type="color" name="ucolor" id="UC"><br><br>
+
+        <label for="UR">select range</label><br>
+        <input type="range" name="urange" id="UR" min="0" max="100" value = 10 step="10"><br><br>
+
+        <label for="cb">Enter Company Name</label><br>
+        <input type="text" name="Company Name" id="cp" value="SEEDInfotech" ><br><br>
+
+        <h3>Select Size</h3>
+        <label for="US">Small</label>
+        <input type="radio" name="usize" id="US" value="S">
+        <label for="US">Medium</label>
+        <input type="radio" name="usize" id="US" value="M">
+        <label for="US">Large</label>
+        <input type="radio" name="usize" id="US" value="L"><br><br>
+
+        <h3>Select Language</h3>
+        <label for="UL">Marathi</label>
+        <input type="checkbox" name="Language[]" id="UL" value="Marathi">
+        <label for="UL">Hindi</label>
+        <input type="checkbox" name="Language[]" id="UL" value="Hindi">
+        <label for="UL">English</label>
+        <input type="checkbox" name="Language[]" id="UL" value="English"><br><br>
+
+        <h3>Write A Review</h3>
+        <textarea name="Review" id="rew" cols="30" rows="10"></textarea><br><br>
+
+        <label for="th">Select tech</label>
+        <select id="th">
+            <option value="java">Java</option>
+            <option value="python">Python</option>
+            <option value="C++">c++</option>
+            <option value="pHp">aj</option>
+        </select>
+        <!--<input type="hidden" name="ip" value="10025.2485.2">-->
+
+        <input type="reset">
+
+        <!--<input type="image" src="sample.jpg" width="45">-->
+        <button>Submit</button>
+    </form>
+    
+</body>
+</html>

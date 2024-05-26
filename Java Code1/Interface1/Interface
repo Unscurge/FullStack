@@ -1,0 +1,6 @@
+Interface - 1. it is used achieve abstrction standardization and also it is used to achieve multiple inheritance.
+            2. standardization is 100%.
+            3. Interface does not have non abstrct method in interface by default all methods are abstract method.
+            4. by default all methods are final, static.
+            5. Interface can not Instantiate (we can not create the object of interface).
+            6. Private method is by default Final.

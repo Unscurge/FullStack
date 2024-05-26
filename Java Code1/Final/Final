@@ -1,0 +1,4 @@
+Final - Final is a keyword in java.
+stops modification of instance field.(variables/data member/attributes)
+stop inheritence of class.
+stops method overriding .

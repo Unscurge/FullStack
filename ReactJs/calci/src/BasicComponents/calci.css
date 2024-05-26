@@ -1,0 +1,51 @@
+.calci_body {
+    width: 275px;
+    margin: 50px;
+    min-height: 400px;
+    background: #758a7c;
+}
+.screen {
+    padding: 1rem;
+}
+#operation {
+    font-size: 1rem;
+    text-align: right;
+    color: #fff;
+    padding-bottom: .5rem;
+}
+#typed {
+    font-size: 2rem;
+    text-align: right;
+    color: #fff;
+}
+.calci_row{
+    display: table;
+}
+.calci_row button {
+    display: table-cell;
+    width: 25%;
+    background: #91A196;
+    color: #fff;
+    height: 75px;
+    font-size: 1rem;
+    border: none;
+    border-color:#798A75;
+    border-width: 1px;
+    border-style: solid;
+}
+.calci_row button.ac {
+    color: #eb4034;
+}
+.calci_body button.del{
+    color: #eb4034;
+}
+.calci_row button.opt {
+    color: #f5cd2c;
+}
+.calci_row button:active {
+    position: relative;
+    top: 5px;
+}
+.calci_row button:hover {
+    background: #758A86;
+}

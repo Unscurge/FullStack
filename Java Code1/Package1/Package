@@ -1,0 +1,5 @@
+Packages are a named collection of classes grouped in a directory
+Packages are a way of grouping related classes and interfaces
+A Package can contain any number of classes that are realted in purpose in scope or by inheritence
+reduce problems with naming conflicts
+package is for organising your work fom code libaries provided by others

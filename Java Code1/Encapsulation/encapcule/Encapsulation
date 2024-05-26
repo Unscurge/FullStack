@@ -1,0 +1,2 @@
+Encapsulation - it allows indirect access of private data member and stops direct access private data member.(data hiding technique)
+it is achieved with the help of a keyword "Private".

@@ -1,0 +1,30 @@
+#NavBar{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f0f028;
+    gap: 5rem;
+    margin: 0px;
+}
+#NavBar > div{
+    padding: 50px;
+    font-size: 35px;
+    background-color: #f0f028 ;
+    
+}
+#heading{
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+}
+#img{
+    display: flex;
+    justify-content: center ;
+}
+#Course{
+    text-align: center;
+    font-size: 30px;
+    padding-top:20px;
+}
+*{
+    background-color: aquamarine;
+}

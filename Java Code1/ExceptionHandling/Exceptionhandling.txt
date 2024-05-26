@@ -1,0 +1,26 @@
+the errors that occur during thr execution of a program are called as runtime error or exception.
+
+Exception classes - base class for all exception.
+                    msessage property - summary info ablout what the error was (String getMessage()).
+                    Stack Trace - info from the stack where the problem occured,(void printStackTrace()).
+
+Robust error handling - 
+                        1. Declare the error - to identify the potential errors.
+                            type - 
+                                a.  checked exception - these types of exception occuring due to problem with resource or system settings. 
+                                b.  Unchecked Exception - the type of exception occur due to programmers mistake.
+                                    this is also called RuntimeException.
+                        2.  Identify the block of caode that may lead to error - code is executed that there are no errors.
+                            if some error is excepted in the code it is enclosed in 'try' block.
+                        3. how to Handle -  if error  
+                                            'catch' block can take parameter of exception class type only.
+                                            'catch' block must follow 'try' block.
+                        4. Differentiate between error message -  multiple errors can occur
+                        5. Catchh all Errors -  Object of Exception class catches all other exception that are not caught by specific excepion.
+                        6. What if not handled.
+                        7. Change of the original method.
+                        8. Define User defined Exception class.
+Mechanism to check resource leakage - finally block :-
+                                                        some resources that are used in the 'try' block need to be avoid resource leakage when the error has occured.
+                                                        'finally' block must follow all 'catch' block.
+                                                        'finally' is always executed.

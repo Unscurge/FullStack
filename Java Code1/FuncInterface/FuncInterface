@@ -1,0 +1,6 @@
+Interface with only one abstract method is called functional interface.
+it is used to write lambda expression.
+lambda expression - code should be concise.
+                    more readable
+                    more compact code than inner class.
+provide simple way to implement functional interface.

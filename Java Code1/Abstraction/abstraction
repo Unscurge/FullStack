@@ -1,0 +1,8 @@
+Abstraction-    1. To use abstraction abstract keyword is use.
+                2. used to hide implementation. 
+abstract -  1. keyword 
+            2. it used to create abstract class as well as abstract method.
+abstract class- 1. a class with abstract keyword is calledd as abstract  class.
+                2. it can not instansiated.(we can not create object of abstract class.)
+                3. abstract class can have both abstract and non abstract method.
+                4. abstract method is a method without method body.(it is used to achieve 0-100% standardization and abstraction.)

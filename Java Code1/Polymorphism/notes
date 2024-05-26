@@ -1,0 +1,10 @@
+Polymorphism (Late Binding) - Ability of different objects to respond to the same message in different ways are called Polymorphism.
+Polymorphism allows to design and implement system the are more easily extensible and maintainable.
+uses- 1. code reusability
+      2. mehod overriding
+Early binding - method overloading
+Late Binding - method overriding
+
+Polymorphism is achieved using overriding functions using inheritance.
+        methods with same name, same signature and same return type in super class as well as subclass.
+        

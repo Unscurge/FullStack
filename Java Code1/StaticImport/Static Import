@@ -1,0 +1,4 @@
+Static import is a feature introduced in th java programming language.
+this feature was introduced into the language in version 5.0
+Static member(fields and methods) defined in a class as public static to be used.
+allow to use static members and fields without specifying the class in which the fields is defined.

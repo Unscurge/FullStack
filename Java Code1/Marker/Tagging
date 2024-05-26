@@ -1,0 +1,16 @@
+1. Tagging interface is also called as marker interface.
+2. tagging interface does not contain any method or datamemeber.
+   why Marker Interface?-- Marker interface is only used for tagging or for marking purpose.
+   Gives additional info about the behavior of class.
+
+types of Marker or taggging-
+1. Clonable-
+ a).present in java.lang package.
+ b).class implementing he interface is legal for cloning.
+ (i) method cloane() in object.
+ c).if not implemented CloneNotSupportedException is thrown.
+2. Serializable - 
+ a). present in java.io package
+ b). used to make an object eligible for saving its state into a file (Serialization)
+ c). if not implemented
+ 
